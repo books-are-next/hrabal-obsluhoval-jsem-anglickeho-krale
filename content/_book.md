@@ -1,36 +1,37 @@
 ---
 outputs: meta
 slug: book
-
-languageCode: en-US
+contentType: prose
+languageCode: en
 meta:
-  title: "Next-book Boilerplate"
-  author: "Author Name"
-  publisher: mkp
-  published: 2020
-  keywords: []
-  edition: beletrie
-chapters:
-  - where-i-lived-and-what-i-lived-for.html
-  - reading.html
-  - sounds.html
-  - solitude.html
+  title: Obsluhoval jsem anglického krále
+  identifier: urn:uuid:296c0919-9963-415a-a386-6c26c077b931
+  author: Bohumil Hrabal
+  publisher: Městská knihovna v Praze
+  modified: '2020-06-04T00:00:00.000Z'
+readingOrder:
+  - promo.html
+  - obsluhoval_jsem_anglickeho_krale_001.html
+  - obsluhoval_jsem_anglickeho_krale_002.html
+  - obsluhoval_jsem_anglickeho_krale_003.html
+  - obsluhoval_jsem_anglickeho_krale_004.html
+  - obsluhoval_jsem_anglickeho_krale_005.html
+  - obsluhoval_jsem_anglickeho_krale_006.html
+  - obsluhoval_jsem_anglickeho_krale_007.html
+  - obsluhoval_jsem_anglickeho_krale_008.html
+  - obsluhoval_jsem_anglickeho_krale_009.html
+  - obsluhoval_jsem_anglickeho_krale_010.html
+  - obsluhoval_jsem_anglickeho_krale_011.html
 tocBase:
-  - link: where-i-lived-and-what-i-lived-for.html
-    title: Where-i-lived-and-what-i-lived-for
-    numberedChildren: true;
-    children:
-      - link: reading.html
-        title: Reading
-      - link: sounds.html
-        title: Sounds
-  - link: solitude.html
-    title: Solitude
+  - id: section-1
+    children: []
+    isSection: true
 static:
   - style
   - scripts
+  - title
   - fonts
-  - images
+  - resources
   - template-images
   - favicon.png
 ---
